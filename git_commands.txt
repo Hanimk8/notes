@@ -1,0 +1,39 @@
+01.  git init: initializing a new git repo if code is already present there
+02.  git status: to know branch status
+03.  git add filename: adding modified file to stash(local cache)
+04.  git add --all: adding add modified files to stash
+05.  git rm --cached filename: remove the added file from stash
+06.  git reset filename: to reset the a file as per its previous pulled condition and removing from stashed area
+07.  git commit -m "message": commit a stashed memory/files
+08.  git commit -a -m "message": add and commit with the message at a time
+09.  git reset --soft HEAD: to uncommit the commits from local branch but keep the changes in local
+10.  git add file_one.txt
+		git commit -m "msg"
+		git add file_two.txt
+		git commit --amend -m "message": to modify the last commit and add second file also and can also change the message 
+11.  git clone branch_url: create a clone of remote repo
+12.  git checkout branch_name: create or checkout to a new local branch
+		git push origin branch_name: pushing branch to remote
+13.  git fetch: fetching all the new branches from remote to local
+		git checkout new_branch: checkout to new branch
+14.  git fetch branchname: fetch the exact branch from remote to local
+15.  git branch -d branch_name: delete branch from local
+16.  git branch -D branch_name: delete branch from local forcefully
+17.  git config --global user.name "name": configure user name in global parameters
+18.  git congig --global user.email "email@name.com": configure user email id
+19.  git config --list: to view all configured list 
+20.  git remote -v: view remote repo url
+21.  git diff: show unstashed files (not added file) 
+22.  git diff --cached: show added but uncommited files
+23.  git diff COMMIT_ID_1 COMMIT_ID_2: show difference between two commits
+24.  git pull: pull the changes or files from remote
+25.  git log: recent log history
+26.  git log: show recent last two commits
+27.  git revert commit_id: revert the commit
+		git push 
+28.  git clean -f: delete all untracked files
+29.  git clean -f -d: delete untracked files including directories
+30.  git reset HEAD filename
+31.  git reset HEAD 
+32.  cat .git/HEAD: shows where head is currently pointing to
+33.  git branch -a: lists all remote and local branches 
