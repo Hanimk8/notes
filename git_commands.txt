@@ -37,3 +37,9 @@
 31.  git reset HEAD 
 32.  cat .git/HEAD: shows where head is currently pointing to
 33.  git branch -a: lists all remote and local branches 
+34.  create a project in local and push the code to remote repo:
+		git init
+		git add 
+		git commit
+		git remote add origin remoteRepoUrl
+		git push origin master 
